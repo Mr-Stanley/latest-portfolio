@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: "RunMeCV AI",
+    desc: "Resume/CV Generation Site Using AI",
+    lang: "Next.js + Node.js + TailwindCSS",
+    link: "https://runmecv.vercel.app/",
+  },
+  {
     name: "EHR Clothing Brand",
     desc: "EHR Clothing Brand is a leading provider of high-quality EHR clothing products, designed to meet the unique needs of healthcare professionals.",
     lang: "Next.js + Node.js + TailwindCSS",
