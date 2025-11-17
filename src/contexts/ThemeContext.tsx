@@ -40,10 +40,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
   };
 
-  if (!mounted) {
-    return <>{children}</>;
-  }
-
+  // Always provide the context, even during SSR, to prevent useTheme() errors
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}
