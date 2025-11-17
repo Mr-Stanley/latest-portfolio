@@ -15,21 +15,45 @@
   src: url("/fonts/clash/ClashDisplay-Semibold.otf") format("opentype");
 }
 
+:root {
+  --bg-primary: #0b040c;
+  --bg-secondary: #130b1c;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-tertiary: rgba(255, 255, 255, 0.4);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --accent-color: #6f1cd7;
+}
+
+html.light {
+  --bg-primary: #FFF8E7;
+  --bg-secondary: #F5F0E8;
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --text-tertiary: #000000;
+  --border-color: rgba(0, 0, 0, 0.15);
+  --accent-color: #6f1cd7;
+}
+
 html {
   scrollbar-color: rgb(0, 0, 0, 0.4) rgb(0, 0, 0, 0);
   scrollbar-width: thin;
 }
 
-body {
+html.light {
+  scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0);
+}
 
+body {
   scroll-behavior: auto;
   overflow-x: hidden;
   overflow-y: scroll;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: #0b040c;
-  color: white;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .font-clashbold {

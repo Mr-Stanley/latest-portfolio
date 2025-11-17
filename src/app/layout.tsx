@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/contexts/ThemeContext";
 
 const geistSans = Poppins({ 
   variable: "--font-geist-sans",
@@ -9,12 +10,12 @@ const geistSans = Poppins({
 });
  
 export const metadata: Metadata = {
-  title: 'Robinson Honour | Creative Software Engineer',
-  description: 'Creative Software Engineer with 6+ years of experience, specializing in web development, app development, robotics, cloud computing, and game development. Building scalable products with great user experiences.',
-  keywords: ['Software Engineer', 'Web Development', 'App Development', 'Robotics', 'Cloud Computing', 'Game Development', 'Full Stack Developer', 'Robinson Honour'],
-  authors: [{ name: 'Robinson Honour' }],
-  creator: 'Robinson Honour',
-  publisher: 'Robinson Honour',
+  title: 'StanCodes | Software Engineer',
+  description: 'Creative Software Engineer with 3+years of experience, specializing in web development, app development,  cloud computing, and game development. Building scalable products with great user experiences.',
+  keywords: ['Software Engineer', 'Web Development', 'App Development', 'Cloud Computing', 'Game Development', 'Backend Developer', 'StanCodes'],
+  authors: [{ name: 'StanCodes' }],
+  creator: 'StanCodes',
+  publisher: 'StanCodes',
   formatDetection: {
     email: false,
     address: false,
@@ -29,23 +30,23 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://robinsonhonour.me.',
-    siteName: 'Robinson Honour Portfolio',
-    title: 'Robinson Honour | Creative Software Engineer',
-    description: 'Creative Software Engineer specializing in web development, app development, robotics, and cloud computing. Building scalable products with great user experiences.',
+    siteName: 'StanCodes Portfolio',
+    title: 'StanCodes | Software Engineer',
+    description: 'Creative Software Engineer specializing in web development, app development,  and cloud computing. Building scalable products with great user experiences.',
     images: [
       {
         url: '/og.png',
         width: 1200,
         height: 630,
-        alt: 'Robinson Honour - Creative Software Engineer',
+        alt: 'Stanley Ugochukwu - Software Engineer',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Robinson Honour | Creative Software Engineer',
+    title: 'Stanley Ugochukwu | Software Engineer',
     description: 'Creative Software Engineer building scalable products with great user experiences.',
-    creator: '@honour_can_code',
+    creator: '@Stan_Coder',
     images: ['/og.png'],
   },
   robots: {
@@ -67,7 +68,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Robinson Honour Amadi',
+    title: 'Stanley Ugochukwu',
   },
 };
 
@@ -81,7 +82,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable}  antialiased`}
       >
-        {children}
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -17,7 +17,7 @@ const Experience = () => {
           className="mb-20"
         >
           <span className="text-[#6f1cd7] text-sm tracking-[0.25em] uppercase mb-4 block font-medium">Experience</span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-clashbold text-white mb-6 tracking-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-clashbold text-[var(--text-primary)] mb-6 tracking-tight transition-colors duration-300">
             Professional Journey
           </h2>
           <div className="h-[2px] w-24 bg-gradient-to-r from-[#6f1cd7] to-transparent mb-8" />
@@ -29,61 +29,42 @@ const Experience = () => {
           <div className="space-y-12">
             {[
               {
-                title: "Frontend Developer",
-                company: "Steadfast International",
-                location: "Lagos, Nigeria",
+                title: "Backend Developer",
+                company: "Bluebow research and consultancy",
+                location: "London Area, UK",
                 period: "2025 - Present",
                 description: [
-                  "Leading the development of a Progressive Web App (PWA) eCommerce platform, Admin Panel, and Affiliate Marketing Website",
-                  "Implementing responsive and mobile-first design principles with modern frontend technologies",
-                  "Collaborating with the product team to deliver high-performance web applications with focus on user experience",
-                  "Building scalable frontend architecture for multiple interconnected platforms"
-                ]
-              },
-              {
-                title: "Fullstack Developer & CEO",
-                company: "Pxxl Space",
-                location: "PH, Nigeria",
-                period: "2023 - Present",
-                description: [
-                  "Led the development and implementation of innovative web solutions.",
-                  "Managed both frontend and backend aspects of projects.",
-                  "Oversaw company operations and strategic decision-making as CEO."
-                ]
-              },
-              {
-                title: "Fullstack Developer",
-                company: "Indulgetix",
-                location: "Lagos, Nigeria",
-                period: "2024 - Present",
-                description: [
-                  "Built backend infrastructure for an event management platform.",
-                  "Designed and implemented APIs for seamless event booking and management.",
-                  "Optimized database performance for handling high-volume ticket sales."
+                  "Lead backend developer for  Bluebow research and consultancy.",
+                  "Designed and implemented the core backend for a multi-role agricultural platform..",
+                  "Architected secure, scalable APIs for farmers, mentors, coaches, and admins, covering authentication, messaging, training, scheduling, and forum systems. ",
+                  "Set technical standards, define database schemas, enforce security practices, and guide implementation patterns across the backend.",
+                  "Ensured data integrity, optimize performance, and maintain code quality while coordinating with frontend teams and stakeholders to deliver a robust, production-ready platform."
                 ]
               },
               {
                 title: "Backend Developer",
-                company: "Organ Station",
-                location: "Remote",
-                period: "2022 - 2023",
+                company: "Xerv",
+                location: "India",
+                period: "2024 - 2025",
                 description: [
-                  "Developed robust backend systems for healthcare applications.",
-                  "Implemented secure data management solutions for sensitive medical information.",
-                  "Collaborated with frontend teams to ensure seamless integration."
+                  "Led the development and implementation of innovative web solutions.",
+                  "Managed the backend aspects of projects.",
+                  "implemented comprehensive authentication and authorization systems, including JWT-based authentication and role-based access control.",
+                  "Developed RESTful APIs for CRUD operations, data validation, and error handling.",
                 ]
               },
               {
-                title: "Director of IT",
-                company: "Intelligentsia",
-                location: "PH, Nigeria",
-                period: "2018 - Present",
+                title: "Fullstack Developer",
+                company: "Briles Software solutions",
+                location: "Lagos, Nigeria",
+                period: "2024 - 2025",
                 description: [
-                  "Oversee all IT operations and infrastructure for the school.",
-                  "Implement innovative technology solutions to enhance learning experiences.",
-                  "Manage IT staff and ensure alignment with educational goals."
+                  "Maintained the backend infrastructure for a web-based application.",
+                  "Database management and optimization.",
+                  "code optimization and refactoring."
+                  
                 ]
-              }
+              },
             ].map((experience, index) => (
               <motion.div
                 key={index}
@@ -111,21 +92,21 @@ const Experience = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-[#6f1cd7]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
 
                   <div className="relative z-10">
-                    <h3 className="text-2xl md:text-3xl font-clashbold text-white mb-3">
+                    <h3 className="text-2xl md:text-3xl font-clashbold text-[var(--text-primary)] mb-3 transition-colors duration-300">
                       {experience.title}
                     </h3>
                     <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-6">
                       <p className="text-[#6f1cd7] font-medium tracking-wide">{experience.company}</p>
                       <div className="flex items-center gap-4">
-                        <span className="hidden md:inline text-[#FFFFFF40]">•</span>
-                        <span className="text-[#FFFFFF99] text-sm">{experience.location}</span>
-                        <span className="text-[#FFFFFF40]">•</span>
-                        <span className="text-[#FFFFFF99] text-sm tracking-wider">{experience.period}</span>
+                        <span className="hidden md:inline text-[var(--text-tertiary)]">•</span>
+                        <span className="text-[var(--text-secondary)] text-sm transition-colors duration-300">{experience.location}</span>
+                        <span className="text-[var(--text-tertiary)]">•</span>
+                        <span className="text-[var(--text-secondary)] text-sm tracking-wider transition-colors duration-300">{experience.period}</span>
                       </div>
                     </div>
                     <ul className="space-y-3">
                       {experience.description.map((item, i) => (
-                        <li key={i} className="text-[#FFFFFF99] leading-relaxed font-light flex items-start">
+                        <li key={i} className="text-[var(--text-secondary)] leading-relaxed font-light flex items-start transition-colors duration-300">
                           <span className="text-[#6f1cd7] mr-3 mt-1.5">•</span>
                           {item}
                         </li>
@@ -145,7 +126,7 @@ const Experience = () => {
           >
             <Resume
               pdfUrl={resumeUrl}
-              fileName="RobinsonHonour.pdf"
+              fileName="StanUgoo.pdf"
               buttonText="Download Resume"
             />
           </motion.div>

@@ -1,140 +1,59 @@
 export const projects = [
   {
-    name: "RunMeCV AI",
-    desc: "Resume/CV Generation Site Using AI",
-    lang: "Next.js + Node.js + TailwindCSS",
-    link: "https://runmecv.vercel.app/",
+    name: "QuickworkNG",
+    desc: "A platform for freelancers to find work and clients to hire them.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://quick-work-ng.vercel.app/",
   },
   {
-    name: "EHR Clothing Brand",
-    desc: "EHR Clothing Brand is a leading provider of high-quality EHR clothing products, designed to meet the unique needs of healthcare professionals.",
-    lang: "Next.js + Node.js + TailwindCSS",
-    link: "https://www.ehrclothing.store/",
-  }, {
-    name: "Zgnis Analytics",
-    desc: "Advanced waste management analytics platform with real-time monitoring and data visualization",
-    lang: "Next.js + Node.js + TailwindCSS",
-    link: "https://zeugnis-landing-page.vercel.app/",
+    name: "Digital Menu",
+    desc: "A digital menu for a building materials & interior design company to showcase their products and services.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://www.meritechbuilding.com.ng/menu",
   },
   {
-    name: "ClanShare",
-    desc: "Instant file sharing platform with secure link generation and seamless user experience",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://clanshare.vercel.app/",
+    name: "GSM Furniture",
+    desc: "A furniture store website for GSM Furniture to showcase their products and services.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://gsm-furniture.vercel.app/",
+  },
+  { 
+    name: "Hair Revamp",
+    desc: "A hair salon website for Hair Revamp to showcase their services and products.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://hair-revamp.vercel.app/",
   },
   {
-    name: "Rewrap: Js/Ts CLI Tool",
-    desc: "A powerful command-line interface tool for JavaScript and TypeScript development",
-    lang: "Node.js + TypeScript + JavaScript",
-    link: "https://rewrap.vercel.app/",
+    name: "Glow Up",
+    desc: "A beauty salon website for Glow Up to showcase their services and products.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://glow-up-three.vercel.app/",
   },
-  {
-    name: "Ondepay Virtual Card V2",
-    desc: "Enhanced digital payment solution with improved user experience and advanced virtual card management",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "https://ondepayupdated.vercel.app/",
-  },
-  {
-    name: "Carb",
-    desc: "Modern e-hailing platform revolutionizing urban transportation",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://carb.com.ng/",
-  },
-  {
-    name: "Fundme: Fundraiser App",
-    desc: "A modern fundraising platform built with cutting-edge technologies",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "http://fund-me-pro.vercel.app/",
-  },
-  {
-    name: "Ondepay Virtual Card",
-    desc: "Digital payment solution with virtual card management system",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "https://ondepay-ng3t.vercel.app/",
-  },
-  {
-    name: "Musician Portfolio",
-    desc: "Professional portfolio website for musicians with dynamic content management",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "https://lainey-wilson.vercel.app/",
-  },
-  {
-    name: "Photography Website",
-    desc: "Professional photography portfolio with gallery management",
-    lang: "JavaScript + Node.js + TailwindCSS",
-    link: "https://photography-app-topaz.vercel.app/",
-  },
-  {
-    name: "React.js Toast Library",
-    desc: "Custom toast notification library for React applications",
-    lang: "TypeScript + Node.js + JavaScript",
-    link: "https://www.npmjs.com/package/robinson-reactjs-toast",
-  },
-  {
-    name: "Form Validator Library",
-    desc: "Comprehensive form validation library for modern web applications",
-    lang: "TypeScript + Node.js + JavaScript",
-    link: "https://www.npmjs.com/package/robinson-form-validator",
-  },
-  {
-    name: "UncutXtra Awards Site",
-    desc: "Dynamic awards platform with real-time voting system",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://uncutxtra.vercel.app",
-  },
-  {
-    name: "My TicketSeller",
-    desc: "Digital ticketing platform for events and entertainment",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://myticketseller.com",
-  },
-  {
-    name: "SME Event",
-    desc: "Event management platform for small and medium enterprises",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://sme-unwind.vercel.app/",
-  },
-  {
-    name: "Veefa",
-    desc: "Multi-vendor marketplace platform with advanced features",
-    lang: "PHP + Bootstrap + jQuery",
-    link: "https://veefa.co/",
-  },
-  {
-    name: "My Portfolio",
-    desc: "Personal portfolio showcasing projects and skills",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://robinsonhonour.vercel.app/",
-  },
-  {
-    name: "Indulgetix",
-    desc: "Comprehensive event management and ticketing solution",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://indulgetix.com/",
-  }
+ 
+  
 ];
 
 export const experienceData = [
   {
-    role: "Frontend Developer",
-    span: "2023 - till date",
-    comp: "TekArt",
-    desc: "I work as a Lead Frontend Engineer at TekArt, crafting thoughtful and inclusive experiences that adhere to web standards.",
+    role: "Backend Developer",
+    span: "August 2025 - till date",
+    comp: "Bluebow research and consultancy",
+    desc: "I work as a Lead Backend Engineer at Bluebow research and consultancy, building robust and scalable backend systems for the company's projects.",
   },
 ];
 
 export const skills = [
   {
     id: 0,
-    title: "Html",
+    title: "Java",
   },
   {
     id: 1,
-    title: "Css",
+    title: "Python",
   },
   {
     id: 2,
-    title: "Bootstrap",
+    title: "Rust",
   },
   {
     id: 3,
@@ -142,7 +61,7 @@ export const skills = [
   },
   {
     id: 4,
-    title: "SCSS",
+    title: "Move",
   },
   {
     id: 5,
@@ -178,11 +97,11 @@ export const skills = [
   },
   {
     id: 13,
-    title: "Photoshop",
+    title: "MySQL",
   },
   {
     id: 14,
-    title: "Premiere pro",
+    title: "PostgreSQL",
   },
   {
     id: 15,

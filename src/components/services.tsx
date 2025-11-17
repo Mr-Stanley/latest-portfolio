@@ -20,7 +20,7 @@ const services = [
     {
         id: 2,
         title: "BACKEND DEVELOPMENT",
-        description: "Building robust server-side applications and APIs using Node.js, Python, and database technologies. Ensuring scalability and security.",
+        description: "Building robust server-side applications and APIs using Node.js, Python, Java, PHP,  and database technologies. Ensuring scalability and security.",
         icon: Server,
         category: "Development"
     },
@@ -31,22 +31,16 @@ const services = [
         icon: Smartphone,
         category: "Mobile"
     },
+   
     {
         id: 4,
-        title: "ROBOTICS ENGINEERING",
-        description: "Creating and programming robotic systems, specializing in automation and control systems as a resource personnel for Airobot in Bonny Island.",
-        icon: BotIcon,
-        category: "Engineering"
-    },
-    {
-        id: 5,
         title: "UI DESIGN",
         description: "Crafting intuitive and visually appealing user interfaces with a focus on user-centered design principles and modern design trends.",
         icon: Palette,
         category: "Design"
     },
     {
-        id: 6,
+        id: 5,
         title: "CLOUD COMPUTING",
         description: "Implementing and managing cloud solutions, leveraging services for scalable and efficient application deployment and infrastructure management.",
         icon: Cloud,
@@ -67,13 +61,13 @@ const Services = () => {
                     viewport={{ once: true }}
                     className="text-left mb-5"
                 >
-                    <h1 className="text-2xl md:text-3xl font-clashbold text-white mb-6 tracking-tight">
+                    <h1 className="text-2xl md:text-3xl font-clashbold text-[var(--text-primary)] mb-6 tracking-tight transition-colors duration-300">
                         Services
                         <span className="inline-block ml-4 transform hover:scale-110 transition-transform">🔥</span>
                     </h1>
                     <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-blue-500 mb-6" />
-                    <p className="text-[#FFFFFF99] text-base md:text-l ">
-                        Specialized in multiple domains of software and hardware engineering
+                    <p className="text-[var(--text-secondary)] text-base md:text-l transition-colors duration-300">
+                        Specialized in multiple domains of software engineering
                     </p>
                 </motion.div>
 
@@ -103,11 +97,11 @@ const Services = () => {
                                     <div className="h-px w-16 bg-gradient-to-r from-purple-500 to-blue-500 opacity-50" />
                                 </div>
 
-                                <h3 className="text-white text-xl  font-clashbold mb-4 tracking-wide">
+                                <h3 className="text-[var(--text-primary)] text-xl font-clashbold mb-4 tracking-wide transition-colors duration-300">
                                     {service.title}
                                 </h3>
 
-                                <p className="text-[#FFFFFF99] text-sm leading-relaxed">
+                                <p className="text-[var(--text-secondary)] text-sm leading-relaxed transition-colors duration-300">
                                     {service.description}
                                 </p>
                             </div>

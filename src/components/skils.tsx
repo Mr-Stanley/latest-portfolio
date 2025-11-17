@@ -19,11 +19,11 @@ const Skills = () => {
                     className="mb-20"
                 >
                     <span className="text-[#6f1cd7] text-sm tracking-[0.2em] uppercase mb-4 block font-medium">Expertise</span>
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-clashbold text-white mb-6 tracking-tight">
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-clashbold text-[var(--text-primary)] mb-6 tracking-tight transition-colors duration-300">
                         Technical Proficiency
                     </h2>
                     <div className="h-[1px] w-16 bg-[#6f1cd7] opacity-50 mb-8" />
-                    <p className="text-[#FFFFFF99] text-lg max-w-2xl font-light leading-relaxed">
+                    <p className="text-[var(--text-secondary)] text-lg max-w-2xl font-light leading-relaxed transition-colors duration-300">
                         A comprehensive toolkit refined through years of practical experience
                     </p>
                 </motion.div>
@@ -43,7 +43,7 @@ const Skills = () => {
                             className="group relative bg-[#130b1c]/80 backdrop-blur-sm border border-[#ffffff08] p-6 transition-all duration-300"
                         >
                             <div className="relative z-10">
-                                <p className="text-white font-medium tracking-wide mb-2">
+                                <p className="text-[var(--text-primary)] font-medium tracking-wide mb-2 transition-colors duration-300">
                                     {skill.title}
                                 </p>
                                 <div className="h-[1px] w-8 bg-[#6f1cd7]/30 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />

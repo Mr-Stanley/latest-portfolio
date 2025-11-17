@@ -11,28 +11,27 @@ const Hero = () => {
           <div>
             <div className="gradientText">
               <h1>
-                Creative Software Engineer<span>.</span>
+                Software Engineer<span>.</span>
               </h1>
             </div>
-            <p className="gradientText font-medium font-pop text-[15px] text-[#FFFFFF99] max-w-[353px] mt-[45px] md:mt-8 lg:mt-1 md:max-w-[639px] md:text-[18px] leading-md:[27px]">
+            <p className="gradientText font-medium font-pop text-[15px] text-[var(--text-secondary)] max-w-[353px] mt-[45px] md:mt-8 lg:mt-1 md:max-w-[639px] md:text-[18px] leading-md:[27px]">
               I like to craft solid and scalable products with great user experiences.
             </p>
             <div
               id="intro"
-              className="text-[#F0FEFF] font-pop flex-shrink-0 text-[.9em] leading-[1.5] font-medium mt-[40px] flex flex-col gap-8 md:flex md:flex-col md:gap-[20px] md:mt-[45px] lg:flex lg:flex-row lg:items-start lg:gap-[12px]"
+              className="text-[var(--text-primary)] font-pop flex-shrink-0 text-[.9em] leading-[1.5] font-medium mt-[40px] flex flex-col gap-8 md:flex md:flex-col md:gap-[20px] md:mt-[45px] lg:flex lg:flex-row lg:items-start lg:gap-[12px]"
             >
               <p className="max-w-[310px]">
-                I&#39;m Robinson Honour, 19, with 6+ Years of experience. Started coding in 2017, specializing in web development,
-                app development, robotics, cloud computing, and game development.
+                I&#39;m Stanley Ugochukwu,  with 3+ Years of experience. specializing in web development,
+                app development, Backend development, cloud computing, and game development.
               </p>
               <p className="max-w-[319px]">
-                Self-taught programmer with proven experience in building live projects.
-                Active tech content creator and speaker.
+                Passionate programmer with proven experience in building live projects.
               </p>
             </div>
             <div className="mt-[35px] md:mt-[65px] flex justify-start items-center  gap-[26px] md:gap-[40px]">
               <motion.a
-                href="https://www.facebook.com/honour.robinson.1"
+                href="https://www.facebook.com/Stan.Codess"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
@@ -45,7 +44,7 @@ const Hero = () => {
                 />
               </motion.a>
               <motion.a
-                href="https://x.com/honour_can_code"
+                href="https://x.com/Stan_Coder"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
@@ -58,7 +57,7 @@ const Hero = () => {
                 />
               </motion.a>
               <motion.a
-                href="https://www.instagram.com/robinsonhonour"
+                href="https://www.instagram.com/stan.codess/"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
@@ -71,7 +70,7 @@ const Hero = () => {
                 />
               </motion.a>
               <motion.a
-                href="https://ng.linkedin.com/in/robinsonhonouramadi"
+                href="https://www.linkedin.com/in/okonkwo-stanley/"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
