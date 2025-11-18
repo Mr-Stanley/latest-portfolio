@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://robinsonhonour.me.',
+    url: 'https://stancodess.vercel.app/',
     siteName: 'StanCodes Portfolio',
     title: 'StanCodes | Software Engineer',
     description: 'Creative Software Engineer specializing in web development, app development,  and cloud computing. Building scalable products with great user experiences.',
