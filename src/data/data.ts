@@ -29,6 +29,12 @@ export const projects = [
     lang: "Next.js + TypeScript + TailwindCSS",
     link: "https://glow-up-three.vercel.app/",
   },
+  {
+    name: "My Portfolio",
+    desc: "A portfolio website for me to showcase my projects and skills.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://stancodess.vercel.app/",
+  },
  
   
 ];

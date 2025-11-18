@@ -10,14 +10,14 @@ import {
 
 const services = [
     {
-        id: 1,
+        id: 2,
         title: "FRONTEND DEVELOPMENT",
         description: "Crafting responsive and interactive web applications using React, Next.js, and TypeScript. Focusing on modern UI/UX practices and optimal performance.",
         icon: Code,
         category: "Development"
     },
     {
-        id: 2,
+        id: 1,
         title: "BACKEND DEVELOPMENT",
         description: "Building robust server-side applications and APIs using Node.js, Python, Java, PHP,  and database technologies. Ensuring scalability and security.",
         icon: Server,
