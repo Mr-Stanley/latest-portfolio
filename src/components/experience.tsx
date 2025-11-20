@@ -1,7 +1,7 @@
 'use client'
 
 import Resume from "./resume";
-const resumeUrl = '/pdf/resume.pdf';
+const resumeUrl = '/pdf/StanUgoo.pdf';
 import { motion } from "framer-motion";
 
 const Experience = () => {
