@@ -114,6 +114,19 @@ export const skills = [
     title: "NodeJs/Express",
   },
   {
+    id: 16,
+    title: "Docker",
+  },
+  {
+    id: 17,
+    title: "Kubernetes",
+  },
+  {
+    id: 18,
+    title: "AWS",
+  },
+  
+  {
     id: Math.random(),
     title: "MongoDB",
   },
