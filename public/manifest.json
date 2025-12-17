@@ -1,0 +1,17 @@
+{
+  "name": "StanCodes Portfolio",
+  "short_name": "StanCodes",
+  "description": "StanCodes - Software Engineer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b040c",
+  "theme_color": "#6f1cd7",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
+

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/contexts/ThemeContext";
@@ -63,13 +63,16 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
-  themeColor: '#6f1cd7',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
     title: 'Stanley Ugochukwu',
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: '#6f1cd7',
 };
 
 export default function RootLayout({
