@@ -6,22 +6,10 @@ export const projects = [
     link: "https://quick-work-ng.vercel.app/",
   },
   {
-    name: "Digital Menu",
-    desc: "A digital menu for a building materials & interior design company to showcase their products and services.",
+    name: "Multilink Security & Logistics",
+    desc: "A security company website to showcase their services and products.",
     lang: "Next.js + TypeScript + TailwindCSS",
-    link: "https://www.meritechbuilding.com.ng/menu",
-  },
-  {
-    name: "GSM Furniture",
-    desc: "A furniture store website for GSM Furniture to showcase their products and services.",
-    lang: "Next.js + TypeScript + TailwindCSS",
-    link: "https://gsm-furniture.vercel.app/",
-  },
-  { 
-    name: "Hair Revamp",
-    desc: "A hair salon website for Hair Revamp to showcase their services and products.",
-    lang: "Next.js + TypeScript + TailwindCSS",
-    link: "https://hair-revamp.vercel.app/",
+    link: "https://multilinklogistics.com.ng/",
   },
   {
     name: "Glow Up",
@@ -34,6 +22,18 @@ export const projects = [
     desc: "A portfolio website for me to showcase my projects and skills.",
     lang: "Next.js + TypeScript + TailwindCSS",
     link: "https://stancodess.vercel.app/",
+  },
+  {
+    name: "GSM Furniture",
+    desc: "A furniture store website for GSM Furniture to showcase their products and services.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://gsm-furniture.vercel.app/",
+  },
+  {
+    name: "Hair Revamp",
+    desc: "A hair salon website for Hair Revamp to showcase their services and products.",
+    lang: "Next.js + TypeScript + TailwindCSS",
+    link: "https://hair-revamp.vercel.app/",
   },
  
   
