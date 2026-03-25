@@ -1,5 +1,17 @@
 export const projects = [
   {
+    name: "Myagropadi",
+    desc: "A platform for farmers to connect with mentors and coaches and learn also integrates AI 'Myagropadi assistant'  to help farmers with agriculture related questions and  insights, also integrating weather data to help farmers make informed decisions",
+    lang: "Next.js + Javascript + TailwindCSS ",
+    link: "https://myagropadi.com/",
+  },
+  {
+    name: "Workstart",
+    desc: "A platform for tech enthusiasts and beginners to learn and get access to seasoned experts and access to projects, also provides job opportunities ,",
+    lang: "Next.js + TypeScript + TailwindCSS ",
+    link: "https://workstart.app/",
+  },
+  {
     name: "QuickworkNG",
     desc: "A platform for freelancers to find work and clients to hire them.",
     lang: "Next.js + TypeScript + TailwindCSS",
@@ -44,7 +56,7 @@ export const experienceData = [
     role: "Backend Developer",
     span: "August 2025 - till date",
     comp: "Bluebow research and consultancy",
-    desc: "I work as a Lead Backend Engineer at Bluebow research and consultancy, building robust and scalable backend systems for the company's projects.",
+    desc: "I work as a Lead Backend Engineer at Bluebow research and consultancy, building robust and scalable backend systems for all of the company's projects including the complete Backend for Myagropadi.com and workstart.app.",
   },
 ];
 
@@ -125,9 +137,14 @@ export const skills = [
     id: 18,
     title: "AWS",
   },
+  {
+    id: 19,
+    title: "Supabase",
+  },
   
   {
     id: Math.random(),
     title: "MongoDB",
   },
+ 
 ];
